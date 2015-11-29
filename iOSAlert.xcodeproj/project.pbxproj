@@ -156,6 +156,8 @@
 		3CF4AE971B6E376500BBDAED /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0710;
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Kadasiddha Kullolli";
 				TargetAttributes = {
@@ -411,6 +413,7 @@
 				3CF4AEC01B6E376500BBDAED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3CF4AEC11B6E376500BBDAED /* Build configuration list for PBXNativeTarget "iOSAlertTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +422,7 @@
 				3CF4AEC31B6E376500BBDAED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

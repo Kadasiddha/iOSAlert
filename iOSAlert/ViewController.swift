@@ -144,7 +144,7 @@ class ViewController: UIViewController {
         
         
         
-        let btnLog = UIButton.buttonWithType(UIButtonType.System) as! UIButton
+        let btnLog = UIButton(type: UIButtonType.System)
         btnLog.setTitle("\(btnOneLbl)", forState: UIControlState.Normal)
         btnLog.titleLabel?.font = UIFont(name: "Gotham-Bold", size: 14)
         btnLog.setTitleColor(UIColor.blackColor(), forState: UIControlState.Normal)
@@ -153,7 +153,7 @@ class ViewController: UIViewController {
         btnLog.frame = CGRectMake(0, ((alertHeight / 2) + 18), (alertWidth / 2), 45)
         btnLog.addTarget(self, action: Selector("buttonOKClicked"), forControlEvents: UIControlEvents.TouchUpInside)
         
-        let btnCancel = UIButton.buttonWithType(UIButtonType.System) as! UIButton
+        let btnCancel = UIButton(type: UIButtonType.System)
         btnCancel.setTitle("\(btnSecondLbl)", forState: UIControlState.Normal)
         btnCancel.titleLabel?.font = UIFont(name: "Gotham-Bold", size: 14)
         btnCancel.setTitleColor(UIColor.redColor(), forState: UIControlState.Normal)
@@ -239,7 +239,7 @@ class ViewController: UIViewController {
         
         
         
-        let btnLog = UIButton.buttonWithType(UIButtonType.System) as! UIButton
+        let btnLog = UIButton(type: UIButtonType.System)
         btnLog.setTitle("\(btnOneLbl)", forState: UIControlState.Normal)
         btnLog.titleLabel?.font = UIFont(name: "Gotham-Bold", size: 14)
         btnLog.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
@@ -248,7 +248,7 @@ class ViewController: UIViewController {
         btnLog.frame = CGRectMake(0, ((alertHeight / 2) + 15), (alertWidth / 2), 45)
         btnLog.addTarget(self, action: Selector("buttonOKClicked"), forControlEvents: UIControlEvents.TouchUpInside)
         //btnLog.layer.cornerRadius = 10;
-        let btnCancel = UIButton.buttonWithType(UIButtonType.System) as! UIButton
+        let btnCancel = UIButton(type: UIButtonType.System)
         btnCancel.setTitle("\(btnSecondLbl)", forState: UIControlState.Normal)
         btnCancel.titleLabel?.font = UIFont(name: "Gotham-Bold", size: 14)
         btnCancel.setTitleColor(UIColor.brownColor(), forState: UIControlState.Normal)
@@ -389,7 +389,7 @@ class ViewController: UIViewController {
         
         
         
-        let btnLog = UIButton.buttonWithType(UIButtonType.System) as! UIButton
+        let btnLog = UIButton(type: UIButtonType.System)
         btnLog.setTitle("\(btnOneLbl)", forState: UIControlState.Normal)
         btnLog.titleLabel?.font = UIFont(name: "Gotham-Bold", size: 14)
         btnLog.setTitleColor(UIColor.cyanColor(), forState: UIControlState.Normal)
@@ -398,7 +398,7 @@ class ViewController: UIViewController {
         btnLog.frame = CGRectMake(0, ((alertHeight / 2) + 15), (alertWidth / 2), 45)
         btnLog.addTarget(self, action: Selector("buttonOKClicked"), forControlEvents: UIControlEvents.TouchUpInside)
         //btnLog.layer.cornerRadius = 10;
-        let btnCancel = UIButton.buttonWithType(UIButtonType.System) as! UIButton
+        let btnCancel = UIButton(type: UIButtonType.System)
         btnCancel.setTitle("\(btnSecondLbl)", forState: UIControlState.Normal)
         btnCancel.titleLabel?.font = UIFont(name: "Gotham-Bold", size: 14)
         btnCancel.setTitleColor(UIColor.cyanColor(), forState: UIControlState.Normal)
@@ -539,7 +539,7 @@ class ViewController: UIViewController {
         
         
         
-        let btnLog = UIButton.buttonWithType(UIButtonType.System) as! UIButton
+        let btnLog = UIButton(type: UIButtonType.System)
         btnLog.setTitle("\(btnOneLbl)", forState: UIControlState.Normal)
         btnLog.titleLabel?.font = UIFont(name: "Gotham-Bold", size: 14)
         btnLog.setTitleColor(UIColor.blackColor(), forState: UIControlState.Normal)
@@ -549,7 +549,7 @@ class ViewController: UIViewController {
         btnLog.frame = CGRectMake(0, ((alertHeight / 2) + 50), (alertWidth / 2), 45)
         btnLog.addTarget(self, action: Selector("buttonPINCancelClicked"), forControlEvents: UIControlEvents.TouchUpInside)
         
-        let btnCancel = UIButton.buttonWithType(UIButtonType.System) as! UIButton
+        let btnCancel = UIButton(type: UIButtonType.System)
         btnCancel.setTitle("\(btnSecondLbl)", forState: UIControlState.Normal)
         btnCancel.titleLabel?.font = UIFont(name: "Gotham-Bold", size: 14)
         btnCancel.setTitleColor(UIColor(red:0.04, green:0.51, blue:0.67, alpha:1.0), forState: UIControlState.Normal)
@@ -594,7 +594,7 @@ class ViewController: UIViewController {
                     self.alertView.removeFromSuperview()
                     self.alertView = nil
             })
-            println("\(verifyText.text)")
+            print("\(verifyText.text)")
             
                
     }
